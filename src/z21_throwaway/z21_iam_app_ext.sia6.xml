@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>Z21_IAM_APP_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>Identity Management App</DESCRIPTION>
+     <RESPONSIBLE>CB0000000002</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>FIT</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>Z21_THROWAWAY</PACKAGE_NAME>
+     </PACKAGE_REF>
+    </MAIN_OBJECT>
+    <APP_ID>Z21_IAM_APP_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>
