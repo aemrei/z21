@@ -16,4 +16,7 @@ annotate view ZODO_C_TASK
     
     @UI.lineItem: [{ label: 'Done', position: 5 }]
     Done;
+    
+    @UI.lineItem: [{ label: 'Type', position: 50 }]
+    Type;
 }

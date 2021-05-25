@@ -4,10 +4,14 @@
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'ZODO Task List for Fiori'
 @Metadata.allowExtensions: true
-define view ZODO_C_TASK as select from ZODO_I_TASK {
+
+//@VDM.viewType: #CONSUMPTION
+define view ZODO_C_TASK as select from ZODO_I_TASK_ENHANCED {
     key Taskname,
     StartDate,
     DueDate,
     Priority,
-    Done
+    Done,
+    Type
+    
 }
