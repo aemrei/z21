@@ -1,0 +1,4 @@
+@EndUserText.label: 'Zodo odata service'
+define service ZODO_SERVICE {
+  expose ZODO_C_TASK;
+}

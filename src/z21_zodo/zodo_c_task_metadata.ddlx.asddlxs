@@ -1,0 +1,19 @@
+@Metadata.layer: #CORE
+annotate view ZODO_C_TASK
+    with 
+{
+    @UI.lineItem: [{ position: 10 }]
+    Taskname;
+    
+    @UI.lineItem: [{ position: 20 }]
+    StartDate;
+    
+    @UI.lineItem: [{ position: 30 }]
+    DueDate;
+    
+    @UI.lineItem: [{ position: 40 }]
+    Priority;
+    
+    @UI.lineItem: [{ label: 'Done', position: 5 }]
+    Done;
+}
